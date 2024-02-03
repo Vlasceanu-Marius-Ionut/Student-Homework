@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-image: url(Ancient-Roman-Sites-and-Ruins-jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+h1 {
+    font-size: 45px;
+    color: #333;
+    margin-top: 20px;
+}
+
+
+p.red {
+    color: crimson;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+}
+
+.shorty {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.shorty div {
+    text-align: center;
+}
+
+
+.shorty img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 8px;
+    margin: 30px;
+    transition: 0.5s ease-in-out;
+}
+.shorty img:hover{
+    transform: scale(1.1);
+}
+
+
+.shorty figcaption {
+    font-style: italic;
+    color: #ffffff;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+
+table {
+    margin: 20px auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+
+th {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+td {
+    background-color: rgba(255, 255, 255, 0.659);
+}
+
+@media (max-width: 600px) {
+    .shorty {
+        flex-direction: column;
+    }
+
+    table {
+        width: 100%;
+    }
+}
